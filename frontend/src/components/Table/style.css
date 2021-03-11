@@ -1,0 +1,12 @@
+tr {
+  background-color: #4bffe475;
+}
+
+tbody tr {
+  background-color: #ffffff75;
+
+  color: white;
+}
+td {
+  color: black;
+}
