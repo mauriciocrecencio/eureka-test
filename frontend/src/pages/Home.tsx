@@ -7,8 +7,9 @@ import AdressesContext from "../contexts/adresses";
 import "./Home.css";
 
 const Home = () => {
-  const { adresses, isLoading, getAddress } = useContext(AdressesContext);
+  const { adresses, isLoading } = useContext(AdressesContext);
   useEffect(() => {
+  const { getAddress } = useContext(AdressesContext);
     getAddress();
   }, []);
   return (
